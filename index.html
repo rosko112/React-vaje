@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      // Izberi element div z id-jem 'app'
+      const app = document.getElementById('app');
+ 
+      // Ustvari nov element H1
+      const header = document.createElement('h1');
+ 
+      // Ustvari novo besedilno vozlišče za element H1
+      const text = 'Develop. Preview. Ship.';
+      const headerContent = document.createTextNode(text);
+ 
+      // Dodaj besedilo v element H1
+      header.appendChild(headerContent);
+ 
+      // Postavi element H1 znotraj div-a
+      app.appendChild(header);
+    </script>
+  </body>
+</html>
